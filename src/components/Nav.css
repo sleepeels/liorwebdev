@@ -1,0 +1,151 @@
+nav {
+  /* min-height: 70px; */
+  background: var(--color_4);
+  color: var(--color_5);
+
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr 1fr;
+  grid-template-areas: ". logo nav . ";
+
+  align-items: center;
+
+  font-size: 2rem;
+}
+
+nav #nav {
+  /* grid-column: 3/4; */
+  grid-area: nav;
+  justify-self: start;
+  width: 30vw;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links ul li {
+  display: block;
+  padding: 0.7rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.6 ease;
+
+  border-radius: 1.5rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links li:hover {
+  background: var(--card-bg);
+  color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color_5);
+}
+.nav-links a:visited {
+  color: unset;
+}
+
+@keyframes bottomline {
+  to {
+    width: 100%;
+  }
+}
+
+/* logo */
+
+nav #logo {
+  justify-content: center;
+  grid-area: logo;
+  cursor: pointer;
+}
+
+#logo1 path:nth-child(1),
+#logo1 path:nth-child(2),
+#logo1 path:nth-child(3),
+#logo1 path:nth-child(4),
+#logo1 path:nth-child(5),
+#logo1 path:nth-child(6),
+#logo1 path:nth-child(7),
+#logo1 path:nth-child(8),
+#logo1 path:nth-child(9),
+#logo1 path:nth-child(10) {
+  stroke-width: 4;
+
+  stroke: var(--color_1);
+  animation: line-anim 2s ease forwards;
+}
+
+#logo1 path:nth-child(1) {
+  stroke-dasharray: 174;
+  stroke-dashoffset: 174;
+  animation-delay: 1s;
+}
+#logo1 path:nth-child(2) {
+  stroke-dasharray: 143;
+  stroke-dashoffset: 143;
+  animation-delay: 1.3s;
+}
+#logo1 path:nth-child(3) {
+  stroke-dasharray: 212;
+  stroke-dashoffset: 212;
+  animation-delay: 1.6s;
+}
+#logo1 path:nth-child(4) {
+  stroke-dasharray: 123;
+  stroke-dashoffset: 123;
+  animation-delay: 1.9s;
+}
+#logo1 path:nth-child(5) {
+  stroke-dasharray: 246;
+  stroke-dashoffset: 246;
+  animation-delay: 2.2s;
+}
+#logo1 path:nth-child(6) {
+  stroke-dasharray: 226;
+  stroke-dashoffset: 226;
+  animation-delay: 2.5s;
+}
+#logo1 path:nth-child(7) {
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation-delay: 2.8s;
+}
+#logo1 path:nth-child(8) {
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation-delay: 3.1s;
+}
+#logo1 path:nth-child(9) {
+  stroke-dasharray: 226;
+  stroke-dashoffset: 226;
+  animation-delay: 3.4s;
+}
+#logo1 path:nth-child(10) {
+  stroke-dasharray: 159;
+  stroke-dashoffset: 159;
+  animation-delay: 3.7s;
+}
+
+#logo1 {
+  fill: transparent;
+
+  animation: fill-up 2s forwards ease 3.6s;
+}
+
+@keyframes fill-up {
+  to {
+    fill: var(--color_5);
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 600;
+    stroke: transparent;
+  }
+}

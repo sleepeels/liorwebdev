@@ -1,0 +1,41 @@
+.project-list {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  position: relative;
+  /* flex-direction: column; */
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 1.5rem;
+
+  border-radius: 1.5rem;
+  background: #17141d;
+  /* box-shadow: -1rem 0 3rem #000; */
+
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.project:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0px 0px 20px var(--color_3);
+}
+
+.project {
+  box-shadow: 0px 0px 20px var(--color_31);
+}
+
+.project:hover ~ .project {
+  transform: translateX(130px);
+}
+
+.project:not(:first-child) {
+  margin-left: -130px;
+}

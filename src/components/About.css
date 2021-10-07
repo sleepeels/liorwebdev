@@ -1,0 +1,22 @@
+section#about {
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr 1fr;
+  grid-auto-rows: auto;
+  grid-template-areas: ". welcome cover-img .";
+  justify-content: center;
+  align-items: center;
+}
+
+#about .welcome {
+  grid-area: welcome;
+  font-size: 2rem;
+  cursor: default;
+}
+
+#about .cover-img {
+  grid-area: cover-img;
+
+  /* max-width: 100%; */
+
+  transition: filter 3s ease;
+}

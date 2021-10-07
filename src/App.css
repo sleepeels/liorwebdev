@@ -1,38 +1,46 @@
+:root {
+  --color_1: #231f20;
+  --color_2: #4d8b31;
+  --color_3: #ffc800;
+  --color_31: #ffc80020;
+  --color_4: #ff8427;
+  --color_5: #ffffff;
+
+  --card-bg: #17141d;
+  --sections-bg: #ffc80010;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--color_1);
+  color: var(--color_3);
+  font-family: "Montserrat", sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  height: 10vh;
+  /* border: 4px solid red; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  height: 70vh;
+
+  /* border: 4px solid red; */
+  /* overflow: hidden; */
+  opacity: 0;
+  padding: 5rem;
+  animation: popin 1.5s forwards ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes popin {
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
