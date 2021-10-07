@@ -6,7 +6,8 @@ const Nav = () => {
   return (
     <nav>
       <div id="logo">
-        <Link to="/">
+        {/* <Link to="/"> */}
+        <a href="/">
           <svg
             id="logo1"
             width="230"
@@ -66,7 +67,8 @@ const Nav = () => {
               strokeWidth="3"
             />
           </svg>
-        </Link>
+        </a>
+        {/* </Link> */}
       </div>
       <div id="nav">
         <div className="nav-links">

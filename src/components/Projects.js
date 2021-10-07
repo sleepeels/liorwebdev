@@ -27,14 +27,6 @@ const Projects = () => {
 
         <div className="project-author"></div>
       </article>
-      <article className="project">
-        <header className="project-header">
-          <h2>Wheather-app</h2>
-          <p>nodejs</p>
-        </header>
-
-        <div className="project-author"></div>
-      </article>
     </section>
   );
 };
