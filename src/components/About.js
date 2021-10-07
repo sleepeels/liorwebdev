@@ -5,11 +5,11 @@ const About = () => {
     <section id="about">
       <p>Hi, my name is Lior, all around web developer.</p>
       <p>
-        My formal education includes BS.c in Copmuters Engineering and a
+        My formal education includes a BSc in Computers, Engineering and a
         Teaching Certificate for High School Physics Education Over the last 4-5
         years I have gained a massive experience in Web Development. HTML, CSS &
-        Javascript on the Frontend, NodeJS, MongoDB & NPM libraries on the
-        Backend. I learned and experienced layout design, colors, animations
+        Javascript on the front-end, NodeJS, MongoDB & NPM libraries on the
+        Back-end. I learned and experienced layout design, colors, animations
         etc.
       </p>
       <p></p>
