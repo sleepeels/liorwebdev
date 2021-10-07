@@ -1,4 +1,6 @@
 section#about {
   font-size: 2rem;
   line-height: 4rem;
+  max-width: 60%;
+  margin: auto;
 }

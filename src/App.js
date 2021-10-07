@@ -7,8 +7,6 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-import Animated from "./components/partials/Animated";
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
