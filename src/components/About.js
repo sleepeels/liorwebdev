@@ -9,7 +9,8 @@ const About = () => {
         Teaching Certificate for High School Physics Education. Over the last
         4-5 years I have gained a massive "hands-on" experience in Web
         Development. HTML, CSS & Javascript on the front-end, NodeJS, MongoDB &
-        NPM libraries on the Back-end. I learned and experienced layout design,
+        NPM libraries on the Back-end, Apps Deployments to Cloud Services such
+        as AWS, Heroku and Firebase. I learned and experienced layout design,
         colors, animations etc.
       </p>
       <p></p>
