@@ -40,6 +40,7 @@ section {
   opacity: 0;
   padding: 5rem;
   animation: popin 1.5s forwards ease;
+  overflow: hidden;
 }
 
 @keyframes popin {
