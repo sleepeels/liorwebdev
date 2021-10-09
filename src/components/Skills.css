@@ -1,8 +1,4 @@
 section#skills {
-  /* display: grid;
-  grid-template-columns: 1fr 9fr 1fr; */
-
-  /* grid-template-areas: ". techgrid ."; */
   max-width: 1100px;
   display: flex;
   flex-direction: column;
@@ -13,8 +9,7 @@ section#skills {
   perspective: 800px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 25rem);
-
-  grid-auto-rows: 15rem;
+  grid-auto-rows: 13rem;
   grid-gap: 3rem;
   justify-content: center;
 }

@@ -2,22 +2,10 @@ nav {
   min-height: 50px;
   background: var(--color_4);
   color: var(--color_5);
-
-  /* display: grid;
-  grid-template-columns: 1fr 5fr 5fr 1fr;
-  grid-template-areas: ". logo nav ."; */
-
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* align-items: center; */
-
   font-size: 1.5rem;
-}
-
-nav,
-nav * {
-  /* border: 2px solid red; */
 }
 
 .nav-links {
@@ -35,11 +23,9 @@ nav * {
 }
 
 .nav-links li {
-  padding: 0.7rem;
+  padding: 1rem;
   cursor: pointer;
-
   transition: all 0.6 ease;
-  /* margin-right: 1rem; */
   border-radius: 1.5rem;
   transition: all 0.3s ease-in-out;
 }
@@ -57,19 +43,6 @@ nav * {
   color: unset;
 }
 
-/*
-
-/* @keyframes bottomline {
-  to {
-    width: 100%;
-  }
-} */
-
-/* logo */
-/* logo */
-/* logo */
-/* logo */
-/* logo */
 /* logo */
 
 #logo1 path:nth-child(1),
@@ -163,19 +136,4 @@ nav * {
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-areas: ". logo ." ". nav .";
   }
-  /* div#nav {
-    font-size: 1.5rem;
-  } */
 }
-
-/* 
-@media only screen and (max-width: 360px) {
-  nav {
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-areas: ". logo . ";
-  }
-
-  div#nav {
-    display: none;
-  }
-} */
