@@ -24,3 +24,17 @@ section#cover {
 h2 span {
   color: var(--color_4);
 }
+
+@media only screen and (max-width: 360px) {
+  section#cover {
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: ". cover-img ." ". welcome .";
+  }
+
+  .cover-img img {
+    width: 20rem;
+  }
+  #cover .welcome {
+    font-size: 2rem;
+  }
+}

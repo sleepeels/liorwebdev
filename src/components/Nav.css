@@ -1,39 +1,46 @@
 nav {
-  min-height: 70px;
+  min-height: 50px;
   background: var(--color_4);
   color: var(--color_5);
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 5fr 5fr 1fr;
-  grid-template-areas: ". logo nav . ";
+  grid-template-areas: ". logo nav ."; */
 
-  align-items: center;
-
-  font-size: 2rem;
-}
-
-nav #nav {
-  /* grid-column: 3/4; */
-  grid-area: nav;
-  justify-self: start;
-  width: 30vw;
-}
-
-.nav-links ul {
-  list-style: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  /* align-items: center; */
+
+  font-size: 1.5rem;
 }
 
-.nav-links ul li {
-  display: block;
+nav,
+nav * {
+  /* border: 2px solid red; */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: space-around;
+  grid-area: nav;
+}
+
+#logo {
+  cursor: pointer;
+  grid-area: logo;
+}
+
+.nav-links li {
   padding: 0.7rem;
   cursor: pointer;
-  text-decoration: none;
+
   transition: all 0.6 ease;
-
+  /* margin-right: 1rem; */
   border-radius: 1.5rem;
-
   transition: all 0.3s ease-in-out;
 }
 
@@ -50,19 +57,20 @@ nav #nav {
   color: unset;
 }
 
-@keyframes bottomline {
+/*
+
+/* @keyframes bottomline {
   to {
     width: 100%;
   }
-}
+} */
 
 /* logo */
-
-nav #logo {
-  justify-content: center;
-  grid-area: logo;
-  cursor: pointer;
-}
+/* logo */
+/* logo */
+/* logo */
+/* logo */
+/* logo */
 
 #logo1 path:nth-child(1),
 #logo1 path:nth-child(2),
@@ -77,7 +85,7 @@ nav #logo {
   stroke-width: 4;
 
   stroke: var(--color_1);
-  animation: line-anim 2s ease forwards;
+  animation: line-anim 2s ease forwards alternate;
 }
 
 #logo1 path:nth-child(1) {
@@ -149,3 +157,25 @@ nav #logo {
     stroke: transparent;
   }
 }
+@media only screen and (max-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: ". logo ." ". nav .";
+  }
+  /* div#nav {
+    font-size: 1.5rem;
+  } */
+}
+
+/* 
+@media only screen and (max-width: 360px) {
+  nav {
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: ". logo . ";
+  }
+
+  div#nav {
+    display: none;
+  }
+} */
