@@ -15,6 +15,17 @@ nav {
   padding: 0;
   justify-content: space-around;
   grid-area: nav;
+
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: navjump 1s forwards ease-out 3.6s;
+}
+
+@keyframes navjump {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 #logo {
@@ -55,7 +66,7 @@ nav {
 #logo1 path:nth-child(8),
 #logo1 path:nth-child(9),
 #logo1 path:nth-child(10) {
-  stroke-width: 4;
+  stroke-width: 5;
 
   stroke: var(--color_1);
   animation: line-anim 2s ease forwards alternate;
@@ -120,8 +131,7 @@ nav {
 
 @keyframes fill-up {
   to {
-    /* fill: var(--color_5); */
-    fill: white;
+    fill: var(--color_5);
   }
 }
 
@@ -136,5 +146,11 @@ nav {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-areas: ". logo ." ". nav .";
+  }
+
+  .nav-links {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: navjump 1.5s forwards ease-out 3.6s;
   }
 }
