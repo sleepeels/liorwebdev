@@ -20,6 +20,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#logo {
+  color: white;
+  fill: white;
+}
+
 .App {
   text-align: center;
 }

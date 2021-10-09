@@ -120,7 +120,8 @@ nav {
 
 @keyframes fill-up {
   to {
-    fill: var(--color_5);
+    /* fill: var(--color_5); */
+    fill: white;
   }
 }
 
