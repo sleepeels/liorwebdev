@@ -1,0 +1,26 @@
+#starts-review {
+}
+
+.star {
+  animation: starfill 1s forwards alternate infinite ease-in-out;
+  fill: transparent;
+}
+.star-outline {
+  fill: white;
+}
+
+#star2 {
+  animation-delay: 0.3s;
+}
+#star3 {
+  animation-delay: 0.6s;
+}
+#star4 {
+  animation-delay: 0.9s;
+}
+
+@keyframes starfill {
+  to {
+    fill: #ff8427;
+  }
+}

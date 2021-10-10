@@ -1,0 +1,37 @@
+#house path:nth-child(1),
+#house path:nth-child(2),
+#house path:nth-child(3),
+#house path:nth-child(4),
+#house path:nth-child(5),
+#house path:nth-child(6),
+#house path:nth-child(7),
+#house path:nth-child(8),
+#house path:nth-child(9),
+#house path:nth-child(10),
+#house path:nth-child(11),
+#house path:nth-child(12) {
+  transform: translateX(100%);
+
+  animation: wood-anim 2s forwards ease-in-out 2s;
+}
+#house path:nth-child(1) {
+  animation-delay: 0.3s;
+}
+#house path:nth-child(2) {
+  animation-delay: 0.6s;
+}
+#house path:nth-child(3) {
+  animation-delay: 0.9s;
+}
+#house path:nth-child(4) {
+  animation-delay: 1.3s;
+}
+#house path:nth-child(5) {
+  animation-delay: 1.6s;
+}
+
+@keyframes wood-anim {
+  to {
+    transform: translateX(0%);
+  }
+}
