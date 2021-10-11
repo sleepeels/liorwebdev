@@ -3,7 +3,6 @@ import "./Nav.css";
 import Logo from "./partials/Logo";
 import Navbar from "./partials/Navbar";
 
-import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
 // import { Container } from "@mui/material";
 
