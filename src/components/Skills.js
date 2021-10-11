@@ -5,13 +5,14 @@ import Card from "./partials/Card";
 
 const Skills = () => {
   useEffect(() => {
+    document.title = "Liorwebdev: Skills";
     const cards = document.getElementsByClassName("card");
     for (let card of cards) {
       card.addEventListener("click", (e) => {
         card.classList.toggle("flip-card");
       });
     }
-  });
+  }, []);
 
   return (
     <section id="skills">

@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "./About.css";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Liorwebdev: About";
+  }, []);
+
   return (
     <section id="about">
       <p>Hi, my name is Lior. I can Design, Develop & Deploy.</p>
