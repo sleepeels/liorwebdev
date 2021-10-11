@@ -34,11 +34,11 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <form onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder="name" />
-        <input type="text" name="email" placeholder="email" />
-        <input type="text" name="subject" placeholder="subject" />
-        <input type="text" name="message" placeholder="message" />
+      <form autoComplete="off" id="contact-form" onSubmit={sendEmail}>
+        <input type="text" name="name" placeholder="name" required />
+        <input type="email" name="email" placeholder="email" required />
+        <input type="text" name="subject" placeholder="subject" required />
+        <input type="text" name="message" placeholder="message" required />
         <button type="submit">send message</button>
       </form>
     </section>
