@@ -24,7 +24,7 @@ nav {
 
 @keyframes navjump {
   to {
-    pointer-events: all;
+    pointer-events: initial;
     opacity: 1;
     transform: translateY(0);
   }
@@ -153,6 +153,9 @@ nav {
   .nav-links {
     opacity: 0;
     transform: translateY(-20px);
+    pointer-events: initial;
     animation: navjump 1.5s forwards ease-out 3.6s;
+  }
+  .nav-links:focus {
   }
 }
