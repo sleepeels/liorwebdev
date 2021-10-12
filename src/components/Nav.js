@@ -3,17 +3,17 @@ import "./Nav.css";
 import Logo from "./partials/Logo";
 import Navbar from "./partials/Navbar";
 
-import { makeStyles } from "@mui/styles";
+// import { makeStyles } from "@mui/styles";
 // import { Container } from "@mui/material";
 
-const useStyles = makeStyles((theme) => ({
-  myNav: {
-    color: theme.palette.primary.navText,
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   myNav: {
+//     color: theme.palette.primary.navText,
+//   },
+// }));
 
 const Nav = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
     // <Container>

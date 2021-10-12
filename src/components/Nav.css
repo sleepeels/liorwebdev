@@ -18,11 +18,13 @@ nav {
 
   opacity: 0;
   transform: translateY(-20px);
+  pointer-events: none;
   animation: navjump 1s forwards ease-out 3.6s;
 }
 
 @keyframes navjump {
   to {
+    pointer-events: all;
     opacity: 1;
     transform: translateY(0);
   }

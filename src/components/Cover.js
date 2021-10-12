@@ -3,7 +3,7 @@ import "./Cover.css";
 const Cover = () => {
   return (
     <section id="cover">
-      <div class="welcome">
+      <div className="welcome">
         <h2>
           Hello, I'm <span>Lior.</span>
         </h2>
@@ -12,7 +12,7 @@ const Cover = () => {
         </h4>
       </div>
 
-      <div class="cover-img">
+      <div className="cover-img">
         <img src="./images/me.png" alt="Lior" />
       </div>
     </section>
