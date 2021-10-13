@@ -47,10 +47,14 @@ nav {
   background: var(--card-bg);
   color: white;
 }
+.nav-links li:focus {
+  color: red;
+}
 
 .nav-links a {
   text-decoration: none;
   color: var(--color_5);
+  outline: none;
 }
 .nav-links a:visited {
   color: unset;
@@ -155,7 +159,5 @@ nav {
     transform: translateY(-20px);
     pointer-events: initial;
     animation: navjump 1.5s forwards ease-out 3.6s;
-  }
-  .nav-links:focus {
   }
 }
