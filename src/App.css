@@ -1,11 +1,11 @@
 :root {
-  --color_1: #231f20;
+  --color_1: #ffffff;
   /* --color_1: #fff; */
   --color_2: #4d8b31;
   --color_3: #ffc800;
   --color_31: #ffc80020;
   --color_4: #ff8427;
-  --color_5: #ffffff;
+  --color_5: #000000;
 
   --card-bg: #17141d;
   --sections-bg: #ffc80010;
@@ -17,7 +17,7 @@ html {
 
 body {
   background: var(--color_1);
-  color: var(--color_3);
+  color: var(--color_5);
   font-family: "Montserrat", sans-serif;
 }
 

@@ -28,6 +28,7 @@ h2 span {
 @media only screen and (max-width: 500px) {
   section#cover {
     grid-template-columns: 1fr 5fr 1fr;
+    grid-auto-rows: 180px;
     grid-template-areas: ". cover-img ." ". welcome .";
   }
 
