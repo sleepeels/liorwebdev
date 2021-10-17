@@ -18,6 +18,17 @@
 #contact-form button {
   margin: 1rem;
   padding: 1rem;
+  background-color: var(--color_4);
+  color: var(--color_1);
+  border-radius: 1rem;
+  border: none;
+
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#contact-form button:hover {
+  opacity: 0.7;
+  color: black;
 }
 
 @media only screen and (max-width: 500px) {
