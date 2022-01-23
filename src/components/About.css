@@ -1,8 +1,13 @@
 section#about {
   font-size: 2rem;
   line-height: 4rem;
-  max-width: 70%;
+  /* max-width: 70%; */
+  max-width: 55%;
   margin: auto;
+}
+
+section#about p {
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 500px) {
