@@ -19,7 +19,7 @@ function App() {
           <Route path="/" exact component={Cover} />
           <Route path="/about" exact component={About} />
           <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
+          {/* <Route path="/projects" component={Projects} /> */}
           <Route path="/contact" component={Contact} />
           <Route path="*" component={NotFound} />
         </Switch>

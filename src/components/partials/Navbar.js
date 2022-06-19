@@ -9,9 +9,9 @@ function Navbar() {
       <Link to="/skills">
         <li>Skills</li>
       </Link>
-      <Link to="/projects">
+      {/* <Link to="/projects">
         <li>Projects</li>
-      </Link>
+      </Link> */}
       <Link to="/contact">
         <li>Contact</li>
       </Link>
