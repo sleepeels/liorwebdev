@@ -25,7 +25,7 @@ const About = () => {
       </p>
       <p>
         I Teached 11th graders Client - Server Programming using Java Backend as
-        well as basic HTML and javascript for 9th graders. :)
+        well as basic HTML and javascript for 9th graders. :):)
       </p>
     </section>
   );
