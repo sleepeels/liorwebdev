@@ -4,6 +4,7 @@ section#about {
   /* max-width: 70%; */
   max-width: 55%;
   margin: auto;
+  text-align: justify;
 }
 
 section#about p {
